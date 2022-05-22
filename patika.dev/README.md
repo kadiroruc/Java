@@ -1,1 +1,1 @@
-Java homeworks I wrote on patika.dev
+Java exercises I wrote on patika.dev

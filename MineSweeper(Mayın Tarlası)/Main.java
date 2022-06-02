@@ -5,7 +5,7 @@ public class Main {
 		MineSweeper mineSweeper=new MineSweeper();
 		Scanner scanner=new Scanner(System.in);
 		while(true) {
-			System.out.println("Oyun Zorluk Seviyesini Giriniz:\n\nKolay (4-4) -->1\nOrta (7-7) -->2\nZor (10-10) -->3\nUzman (16-16) -->4");
+			System.out.println("Oyun Zorluk Seviyesini Giriniz:\n\nKolay (4-4) -->1\nOrta (7-7) -->2\nZor (9-9) -->3\nUzman (12-12) -->4");
 			int zorluk=scanner.nextInt();
 			
 			switch (zorluk) {
@@ -18,12 +18,12 @@ public class Main {
 				mineSweeper.setSutun_sayisi(7);
 				break;
 			case 3:
-				mineSweeper.setSatir_sayisi(10);
-				mineSweeper.setSutun_sayisi(10);
+				mineSweeper.setSatir_sayisi(9);
+				mineSweeper.setSutun_sayisi(9);
 				break;
 			case 4:
-				mineSweeper.setSatir_sayisi(16);
-				mineSweeper.setSutun_sayisi(16);
+				mineSweeper.setSatir_sayisi(12);
+				mineSweeper.setSutun_sayisi(12);
 				break;
 			
 			default:
